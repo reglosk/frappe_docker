@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://github.com/frappe/erpnext",
+    "branch": "develop"
+  },
+  {
+    "url": "https://github.com/frappe/hrms",
+    "branch": "develop"
+  },
+  {
+    "url": "https://github.com/frappe/webshop",
+    "branch": "develop"
+  },
+  {
+    "url": "https://github.com/frappe/print_designer",
+    "branch": "develop"
+  },
+  {
+    "url": "https://github.com/frappe/wiki",
+    "branch": "master"
+  }
+]
