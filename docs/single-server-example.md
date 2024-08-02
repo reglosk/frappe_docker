@@ -145,6 +145,19 @@ echo 'ROUTER=erpnext-one' >> ~/gitops/erpnext-one.env
 echo "BENCH_NETWORK=erpnext-one" >> ~/gitops/erpnext-one.env
 ```
 
+```shell
+
+
+cp example.env /gitops/erpnext-one.env
+sed -i 's/DB_PASSWORD=123/DB_PASSWORD=changeit/g' gitops/erpnext-one.env
+sed -i 's/DB_HOST=/DB_HOST=mariadb-database/g' gitops/erpnext-one.env
+sed -i 's/DB_PORT=/DB_PORT=3306/g' gitops/erpnext-one.env
+sed -i 's/SITES=`pharmako.cache-app.com`
+echo 'ROUTER=erpnext-one' >> gitops/erpnext-one.env
+echo "BENCH_NETWORK=erpnext-one" >> gitops/erpnext-one.env
+
+
+```
 Note:
 
 - Change the password from `changeit` to the one set for MariaDB compose in the previous step.
