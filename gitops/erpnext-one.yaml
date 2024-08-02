@@ -72,10 +72,10 @@ services:
       traefik.enable: "true"
       traefik.http.routers.erpnext-one-http.entrypoints: http
       traefik.http.routers.erpnext-one-http.middlewares: https-redirect
-      traefik.http.routers.erpnext-one-http.rule: Host(`erp.example.com`)
+      traefik.http.routers.erpnext-one-http.rule: Host(`pharmako.cache-app.com`)
       traefik.http.routers.erpnext-one-http.service: erpnext-one
       traefik.http.routers.erpnext-one-https.entrypoints: https
-      traefik.http.routers.erpnext-one-https.rule: Host(`erp.example.com`)
+      traefik.http.routers.erpnext-one-https.rule: Host(`pharmako.cache-app.com`)
       traefik.http.routers.erpnext-one-https.service: erpnext-one
       traefik.http.routers.erpnext-one-https.tls: "true"
       traefik.http.routers.erpnext-one-https.tls.certresolver: le
